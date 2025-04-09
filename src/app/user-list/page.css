@@ -1,0 +1,79 @@
+:root {
+  --primary: #1f2937;
+  --accent: #3b82f6;
+  --bg: #f9fafb;
+  --border: #e5e7eb;
+  --radius: 8px;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+body {
+  background-color: var(--bg);
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2.25rem;
+  color: var(--primary);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 1.5rem;
+}
+
+li {
+  background: #fff;
+  padding: 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+article h2 {
+  font-size: 1.25rem;
+  margin: 0 0 0.5rem;
+  color: var(--accent);
+}
+
+article p {
+  margin: 0;
+  color: #4b5563;
+}
+.user-card {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    
+    .avatar {
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    
+    .user-info h2 {
+      margin: 0;
+      font-size: 1.1rem;
+    }
+    
+    .user-info p {
+      margin: 0.25rem 0 0;
+    }

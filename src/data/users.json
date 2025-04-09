@@ -1,0 +1,21 @@
+[
+      {
+        "id": 1,
+        "name": "Alice Johnson",
+        "description": "Frontend Developer with a passion for UI/UX.",
+        "avatar": "https://randomuser.me/api/portraits/women/65.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Bob Smith",
+        "description": "Backend Engineer specializing in microservices.",
+        "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Charlie Rose",
+        "description": "DevOps expert focused on automation and CI/CD.",
+        "avatar": "https://randomuser.me/api/portraits/men/45.jpg"
+      }
+    ]
+    
