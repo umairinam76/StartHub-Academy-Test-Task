@@ -1,0 +1,52 @@
+.user-detail {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      font-family: system-ui, sans-serif;
+    }
+    
+    .user-detail h1 {
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+      color: #1f2937;
+    }
+    
+    .user-detail .avatar {
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+    
+    .user-detail p {
+      color: #4b5563;
+      font-size: 1rem;
+    }
+    
+    .user-detail ul.skills {
+      margin-top: 1rem;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    
+    .user-detail ul.skills li {
+      background: #f3f4f6;
+      padding: 0.4rem 0.8rem;
+      border-radius: 6px;
+      font-size: 0.875rem;
+      color: #374151;
+    }
+    
+    .user-detail a {
+      display: inline-block;
+      margin-top: 1.5rem;
+      color: #3b82f6;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    

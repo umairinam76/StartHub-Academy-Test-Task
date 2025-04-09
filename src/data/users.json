@@ -2,20 +2,34 @@
       {
         "id": 1,
         "name": "Alice Johnson",
-        "description": "Frontend Developer with a passion for UI/UX.",
-        "avatar": "https://randomuser.me/api/portraits/women/65.jpg"
+        "description": "Frontend Developer with 6 years of experience in React and UI/UX design.",
+        "avatar": "https://randomuser.me/api/portraits/women/65.jpg",
+        "location": "San Francisco, USA",
+        "skills": ["React", "TypeScript", "Accessibility", "Figma"]
       },
       {
         "id": 2,
         "name": "Bob Smith",
-        "description": "Backend Engineer specializing in microservices.",
-        "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+        "description": "Backend Engineer focusing on Node.js microservices architecture and API design.",
+        "avatar": "https://randomuser.me/api/portraits/men/32.jpg",
+        "location": "Austin, USA",
+        "skills": ["Node.js", "MongoDB", "GraphQL", "Redis"]
       },
       {
         "id": 3,
         "name": "Charlie Rose",
-        "description": "DevOps expert focused on automation and CI/CD.",
-        "avatar": "https://randomuser.me/api/portraits/men/45.jpg"
+        "description": "DevOps engineer passionate about CI/CD automation and performance tuning.",
+        "avatar": "https://randomuser.me/api/portraits/men/45.jpg",
+        "location": "Berlin, Germany",
+        "skills": ["Docker", "Kubernetes", "AWS", "Terraform"]
+      },
+      {
+        "id": 4,
+        "name": "Emily Zhang",
+        "description": "Full-stack engineer building scalable web apps with modern JavaScript.",
+        "avatar": "https://randomuser.me/api/portraits/women/12.jpg",
+        "location": "Toronto, Canada",
+        "skills": ["Next.js", "GraphQL", "SCSS", "PostgreSQL"]
       }
     ]
     
